@@ -1,0 +1,52 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - CryptoSwift (0.11.0)
+  - IQKeyboardManager (6.1.1)
+  - MBProgressHUD (1.1.0)
+  - Result (4.0.0)
+  - SipHash (1.2.2)
+  - TrezorCrypto (0.0.6)
+  - TrustCore (0.0.7):
+    - BigInt
+    - TrezorCrypto
+  - TrustKeystore (0.4.2):
+    - BigInt
+    - CryptoSwift
+    - TrezorCrypto
+    - TrustCore
+
+DEPENDENCIES:
+  - BigInt (~> 3.0)
+  - IQKeyboardManager
+  - MBProgressHUD
+  - Result
+  - TrustCore (~> 0.0.7)
+  - TrustKeystore (~> 0.4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - CryptoSwift
+    - IQKeyboardManager
+    - MBProgressHUD
+    - Result
+    - SipHash
+    - TrezorCrypto
+    - TrustCore
+    - TrustKeystore
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  TrezorCrypto: bea2dab002f9a5fe885df004694b9ece52dc088b
+  TrustCore: 688df9a241008cf9cfa3842ec8ef28777a8b7534
+  TrustKeystore: ba8a33ccd7b6a46dfe25f209253d6ba13da6655c
+
+PODFILE CHECKSUM: f1d70c42e968189e0157a09c590fb317cb3e2ae9
+
+COCOAPODS: 1.5.3

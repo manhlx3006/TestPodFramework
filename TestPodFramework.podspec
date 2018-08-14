@@ -88,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.{h,m, .swift}"
   s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "Classes/**/*.h"
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   s.resource_bundles = {
-     'KyberPayiOS' => ['KyberPayiOS/Assets/*.png']
+     'TestPodFramework' => ['TestPodFramework/**/*.{png, .xib}']
   }
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -129,7 +129,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'BigInt', '~> 3.0'
   s.dependency 'MBProgressHUD'
   s.dependency 'TrustKeystore', '~> 0.4.2'
